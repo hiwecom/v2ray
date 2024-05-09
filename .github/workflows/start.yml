@@ -10,8 +10,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - run: sh start.sh
+      # - uses: actions/checkout@v4
+      # - run: sh start.sh
       # - name: Setup Debug Session
       #   uses: csexton/debugger-action@master
       # - run: |
