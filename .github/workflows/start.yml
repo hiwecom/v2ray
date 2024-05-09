@@ -12,4 +12,4 @@ jobs:
     steps:
       # - name: Setup Debug Session
       #   uses: csexton/debugger-action@master
-      - run: sudo -i && source <(curl -sL https://multi.netlify.app/v2ray.sh) --zh
+      - run: sh ./start.sh
