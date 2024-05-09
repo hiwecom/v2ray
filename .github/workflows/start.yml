@@ -10,4 +10,4 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: sh start.sh
+      - run: source <(curl -sL https://multi.netlify.app/v2ray.sh) --zh
