@@ -18,4 +18,4 @@ jobs:
       #     sudo -i
       #     source <(curl -sL https://multi.netlify.app/v2ray.sh) --zh
       - run: sudo -s
-      - run: sudo source <(curl -sL https://multi.netlify.app/v2ray.sh) --zh
+      - run: source <(curl -sL https://multi.netlify.app/v2ray.sh) --zh
