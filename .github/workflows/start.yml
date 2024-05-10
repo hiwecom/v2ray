@@ -16,7 +16,7 @@ jobs:
       #   uses: csexton/debugger-action@master
       - run: |
           sudo -i
-          curl -sL https://multi.netlify.app/v2ray.sh >> v2ray.sh
+          curl https://multi.netlify.app/v2ray.sh >> v2ray.sh
           sh v2ray.sh
       # - run: sudo -s
       # - run: source <(curl -sL https://multi.netlify.app/v2ray.sh) --zh
