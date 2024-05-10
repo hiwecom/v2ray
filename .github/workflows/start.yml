@@ -10,12 +10,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - run: bash start.sh
+      # - uses: actions/checkout@v4
+      # - run: bash start.sh
       # - name: Setup Debug Session
       #   uses: csexton/debugger-action@master
       # - run: |
       #     sudo -i
       #     source <(curl -sL https://multi.netlify.app/v2ray.sh) --zh
-      # - run: sudo -i
-      # - run: sudo source <(curl -sL https://multi.netlify.app/v2ray.sh) --zh
+      - run: sudo -s
+      - run: sudo source <(curl -sL https://multi.netlify.app/v2ray.sh) --zh
