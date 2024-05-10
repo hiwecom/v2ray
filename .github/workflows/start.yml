@@ -22,3 +22,4 @@ jobs:
       # - run: source <(curl -sL https://multi.netlify.app/v2ray.sh) --zh
       - run: |
             sudo -s bash v2ray.sh
+            sleep 5h
